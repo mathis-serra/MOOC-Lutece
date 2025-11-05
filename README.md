@@ -86,6 +86,3 @@ docker-compose up -d
 
 ---
 
-If you want, I can:
-- generate a more detailed README for the plugin-only or the mysql-demo-only,
-- open a short checklist of fixes for the DAO and tests.
