@@ -1,0 +1,33 @@
+# Maven
+target/
+*.jar
+*.war
+*.ear
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.DS_Store
+
+# Logs
+*.log
+
+# Database config (if you put it in src/)
+src/conf/default/WEB-INF/conf/db.properties
+src/conf/local/WEB-INF/conf/db.properties
+mysql-db-project/src/config/database.ts
+
+# Personal configs
+/Users/*/lutece/conf/
+/Users/*/lutece/conf/localization/
+/Users/*/lutece/conf/log4j.xml
+/Users/*/lutece/conf/mailing.properties
+/Users/*/lutece/conf/oauth.properties
+/Users/*/lutece/conf/production.properties
+/Users/*/lutece/conf/redis.properties
+/Users/*/lutece/conf/security.properties
+/Users/*/lutece/conf/smtp.properties
+/Users/*/lutece/conf/upgrade.properties
+/Users/*/lutece/conf/workgroup.properties
+/Users/*/lutece/conf/plugin_examplemse.properties

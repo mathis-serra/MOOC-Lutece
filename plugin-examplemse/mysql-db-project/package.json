@@ -1,0 +1,21 @@
+{
+  "name": "mysql-db-project",
+  "version": "1.0.0",
+  "description": "A project to demonstrate MySQL/MariaDB integration with TypeScript.",
+  "main": "src/app.ts",
+  "scripts": {
+    "start": "ts-node src/app.ts",
+    "build": "tsc",
+    "migrate": "mysql -u <user> -p <password> <database> < src/migrations/init.sql"
+  },
+  "dependencies": {
+    "mysql2": "^2.3.3",
+    "typescript": "^4.5.4",
+    "ts-node": "^10.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.7"
+  },
+  "author": "",
+  "license": "ISC"
+}

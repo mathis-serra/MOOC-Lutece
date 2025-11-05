@@ -1,0 +1,30 @@
+<@row>
+    <@columns>
+        <h3>Test - Liste des Projets</h3>
+        
+        <#if project_list?? && project_list?size > 0>
+            <div class="row">
+                <#list project_list as project >
+                    <div class="col-md-4">
+                        <div class="panel panel-default" style="margin-bottom: 20px;">
+                            <div class="panel-body text-center">
+                                <h4>${project.name!"Sans nom"}</h4>
+                                <p>${project.description!"Sans description"}</p>
+                                <small>ID: ${project.id}</small>
+                                <br><br>
+                                <a href="jsp/site/Portal.jsp?page=project&view=detailsProject&id=${project.id}" class="btn btn-sm btn-primary">
+                                    Voir
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </#list>
+            </div>
+        <#else>
+            <div class="alert alert-info">
+                <p>Aucun projet trouvé dans la base de données.</p>
+            </div>
+        </#if>
+        
+    </@columns>
+</@row>
