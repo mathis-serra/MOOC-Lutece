@@ -1,7 +1,7 @@
 // filepath: /README.md
 # MOOC-Lutece
 
-...existing code...
+Lutece is an open Source framework used by the city of Paris 
 
 # MOOC-Lutece — repository overview
 
